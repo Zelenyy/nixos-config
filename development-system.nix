@@ -23,19 +23,4 @@
             texstudio
         ];
 
-    # System-wide python
-    with pkgs;
-    let
-        my-python-packages = python-packages: with python-pakages; 
-        [
-            numpy
-            scipy
-            matplotlib
-            pandas
-            pytables
-        ];
-        python-with-my-pkgs = python3.withPackages my-python-packages;
-        enviroment.systemPackeges = [python-with-my-pkgs];
-    in ...
-    
 }
