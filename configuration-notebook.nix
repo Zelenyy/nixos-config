@@ -13,6 +13,9 @@
       ./general-soft.nix
       ./development-system.nix
       ./general-system.nix
+      ./system-python.nix
+      ./cern.nix
+      ./jetbrains.nix
 #      ./wifi.nix
     ];
 

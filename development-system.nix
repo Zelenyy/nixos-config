@@ -2,8 +2,10 @@
 
 {
     environment.systemPackages = with pkgs;
-        [ 
+        [
+            gnumake 
             gcc
+            gfortran
             conda
             
             # CPP
